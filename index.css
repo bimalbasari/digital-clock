@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Seven Segment", sans-serif;
+  font-weight: 600;
+  font-size: 4rem;
+  letter-spacing: 1rem;
+  background-color: rgba(0, 0, 0, 0.767);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: fit-content;
+  margin-top: 10%;
+  background-color: rgba(90, 22, 153, 0.815);
+}
+.box {
+  width:75%;
+  background: #d9d9d9;
+  color: rgb(199, 40, 40);
+  border: 0.5rem outset rgba(230, 255, 255, 0.788);
+  margin: 6rem;
+  padding: 1rem ;
+  border-radius: 1rem;
+  text-align: center;
+}
+.box:hover {
+  color: aliceblue;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 1rem;
+  background-color: rgba(0, 0, 0, 0.521);
+}
